@@ -1,0 +1,53 @@
+Column Header Descriptions
+
+Workbook name and file extension: Leakage-Rate-Data-Workbook.xlsx
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Author:				Last name(s).
+Year:				Year when the paper was published.
+Paper:				Author last name(s) and year, concatenated.
+Order:				A numerical index.
+Experiment Category:		"Dry Air" or "Air-Steam".
+Crack Development Method:	Primary method of crack development: "Tension" or "Bending".
+Fluid:				Type of fluid: "Air", "Air and Steam", or "Oxygen Gas".
+Details:			Contains text that provides some additional information.
+Flow Nature:			Descriptions that characterize the flow, such as "laminar" or "turbulent".
+Model:				Model name, based on author name or some other experimental program.
+Reinforced?:			Indicates if the test specimens were reinforced or not reinforced.
+Reinforcement Details:		Provides details about the reinforcement layout.
+Series Name:			Provides information about the naming of specimen groups.
+Specimen Name:			Provides information about the name of each specimen.
+Test Number:			Indicates the test number as specified in the paper, or assigned a default index.
+Test Day:			Indicates the testing day, if applicable.
+Load Stage:			Indicates the load stage, if applicable.
+T:				Absolute temperature of the fluid (K).
+Density:			Density of the fluid (kg/m^3).
+rho_l:				Longitudinal reinforcement ratio of the specimen (%).
+d_a:				Maximum diameter of aggregate (m).
+dP:				Pressure difference (Pa).
+b:				Measured, visible crack extent (m).
+w:				Measured crack width, measured perpendicular to the crack segment's local orientation (m).
+w_avg:				Average crack width from all crack measurements (m).
+L:				Specimen wall thickness (m).
+b_total:			Total measured, visible crack extent (m).
+Qm_per_b:			Total measured leakage rate divided by the total measured visible crack extent (m^2/s).
+Qm:				Total measured leakage rate (m^3/s).
+Qp:				Predicted leakage rate from models (m^3/s).
+m_dot:				Mass flow rate, if available (kg/s).
+v_m:				Mean exit velocity, if available (m/s).
+F:				Applied load (N).
+n_c:				Number of cracks.
+mu:				Dynamic viscosity of the fluid (Pa*s).
+A:				Cross-sectional area (m^2).
+v_avg:				Average velocity calculated from Qm/A (m/s).
+D_h:				Hydraulic diameter of the channel (m).
+Re:				Reynolds number.
+f.1:				Friction factor.
+w_1 to w_112:			Crack width measurement #1 to crack width measurement #112 (m): {w_1, w_2, w_3,..., w_111, w_112}.
+P1:				Upstream absolute fluid pressure (Pa).
+P_avg:				Average of the upstream and downstream absolute fluid pressures (Pa).
+m_dot_deriv:			Derived mass flow rate using other quantities (kg/s).
+Qp_{model}			Predicted leakage rate using the model given by {model} (m^3/s).
+Qp_{model}_per_b:		Predicted leakage rate using the model given by {model}, divided by the total crack extent (m^2/s).
+Qp_{model}_Pred_Ratio:		Prediction ratio calculated as Qp_{model}/Qm.
+Qp_{model}_per_b_Pred_Ratio:	Prediction ratio calculated as Qp_{model}_per_b/(Qm_per_b).
